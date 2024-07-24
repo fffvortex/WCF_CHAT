@@ -21,7 +21,7 @@ namespace wcf_chat
                 operation = OperationContext.Current,
             };
             nextId++;
-            SendMessage($"{user.Name} is connected!", 0);
+            SendMessage(": "+$"{user.Name} is connected!", 0);
             users.Add(user);
             return user.Id;
 
@@ -33,7 +33,7 @@ namespace wcf_chat
             if (user != null)
             {
                 users.Remove(user);
-                SendMessage($"{user.Name} is disconected.", 0);
+                SendMessage(": " + $"{user.Name} is disconected.", 0);
             }
         }
 

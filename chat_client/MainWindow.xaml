@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:chat_client"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded" Closing="Window_Closing">
+        Title="MainWindow" Height="450" Width="800" Closing="Window_Closing">
     <Grid >
         <TextBox x:Name="tbUserName" HorizontalAlignment="Left" Height="45" Margin="195,10,0,0" TextWrapping="Wrap" Text="UserName" VerticalAlignment="Top" Width="575"/>
         <Button x:Name="bConnDisconn" Click="Button_Click" Content="Connect" HorizontalAlignment="Left" Height="43" Margin="25,12,0,0" VerticalAlignment="Top" Width="135" />
